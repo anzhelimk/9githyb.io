@@ -14,7 +14,7 @@ a{
     width: 1440px;
     margin: 0 auto;
 }
-.section-navigation{
+.section-navigation, .section-choice, .section-reviews{
     width: 100%;
     background-color: #F8F8F8;
 }
@@ -52,10 +52,8 @@ a{
 }
 
 .section-about-us{
-    width: 100%;
-    background-image: url(../imgs/image\ 6.svg);
-    /* background-color: #F8F8F8; */
-    background-size: cover;
+    background-color: #F8F8F8;
+    
 }
 /* .background{
     background: url(../imgs/image\ 6.svg);
@@ -64,6 +62,16 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
 } */
+.background img{
+    visibility: hidden !important;
+}
+.sections-about-us-2{
+    width: 100%;
+    background-image: url(../imgs/image\ 6.svg);
+    /* background-color: #F8F8F8; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .head h1{
     position: relative;
     font-family: 'Mon Bold';
@@ -158,4 +166,67 @@ a{
 
     padding-top: 20px;
     padding-bottom: 100px;
+}
+.text-choice h1{
+    font-family: 'Mon Bold';
+    font-size: 2rem;
+    color: #2E134E;
+    padding-bottom: 30px;
+}
+.text-choice p{
+    font-family: 'Mon Reg';
+    font-size: 1rem;
+    color: #2E134E;
+}
+.text-choice span{
+    font-family: 'Mon Bold';
+}
+.choise-img img{
+    width: 406px;
+    height: 214px;
+}
+.choice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 100px;
+}
+
+.reviews h1{
+    font-family: 'Mon Bold';
+    font-size: 2rem;
+    color: #2E134E;
+    padding-bottom: 30px;
+}
+.dial h3{
+    font-family: 'Mon Sem';
+    font-size: 1rem;
+    color: #2E134E;
+}
+.dial p{
+    font-family: 'Mon Reg';
+    font-size: 1rem;
+    color: black;
+    padding-left: 60px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.contact img{
+    padding-right: 10px;
+}
+/* .section-rviews{
+    position: relative;
+} */
+.dial .rew img{
+    position: relative;
+}
+.people{
+    position: absolute;
+}
+#p-1{
+    top: 1442px;
+    left: 40px;
 }
