@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Mon Bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Mon Sem';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Mon Med';
+    src: url(../fonts/Montserrat-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Mon Reg';
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
