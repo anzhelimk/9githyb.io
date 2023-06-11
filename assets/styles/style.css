@@ -31,13 +31,19 @@ a{
 
     transition: all ease 0.3s;
 }
+.st, .dat{
+    width: 4rem;
+}
+.bron{
+    width: 19rem;
+}
 .nav a:hover{
     font-family: 'Mon Med';
     font-weight: 500;
     border-bottom: 1px solid #FA0568;
 }
 .nav{
-    width: 35%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
 }
@@ -143,9 +149,8 @@ a{
 .button-1 a:hover{
     background: #2E134E;
     box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.2);
-    /* transform-style: initial; */
-    /* animation: 1s; */
-    transition: all .4s ease-in-out;
+    transition: all ease 0.4s;
+
 }
 .background{
     position: relative;
@@ -290,6 +295,14 @@ a{
     height: 146px;
     background: #FFFFFF;
     border-radius: 28px;
+    position: relative;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.buk:hover{
+    /* top: 10px; */
+    box-shadow: 17px 18px 0px -7px rgba(46, 19, 78, 0.99);    
+    transition: all ease 0.4s;
 }
 .buk .desc h3{
     font-family: 'Mon Bold';
@@ -451,6 +464,14 @@ a{
     border-radius: 30px;
     padding: 20px 70px 20px 70px;
     margin-top: 45px;
+
+    transition: all .4s ease-in-out;
+}
+.form-date button:hover{
+    background: #2E134E;
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.2);
+
+    transition: all .4s ease-in-out;
 }
 .form-date form{
     width: 40%;
@@ -466,12 +487,12 @@ a{
 .section-forms-date{
     padding-bottom: 100px;
 }
-.sections-napoln{
+/* .sections-napoln{
     background-image: url(../imgs/back.svg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 .backgrond-2 img{
     visibility: hidden !important;
 }
@@ -484,7 +505,8 @@ a{
 }
 .stocks-card .card{
     width: 100%;
-    height: 681px;
+    min-height: 681px;
+    padding: 32px 0px 32px 0px;
     background: linear-gradient(180deg, #FF84B6 0%, #C873B2 44.27%, #835DAE 100%);
     box-shadow: 6px 8px 14px rgba(0, 0, 0, 0.12);
     border-radius: 73px;
@@ -518,6 +540,11 @@ a{
     background: #2E134E;
     padding: 20px 80px 20px 80px;
     border-radius: 37px;
+    transition: all ease 0.4s;
+}
+.card a:hover{
+    background: #FA0568;
+    transition: all ease 0.4s;
 }
 .backg-1, .backg-2, .backg-3{
     width: 468px;
@@ -539,13 +566,15 @@ a{
     justify-content: center;
 }
 .text-desc{
-    padding-right: 55px;
+    padding-right: 145px;
 }
 .desc-card{
     display: flex;
     padding-bottom: 65px;
 }
-
+.card-p{
+    width: 46rem;
+}
 .text-desc-2 p{
     text-align: right;
 }
@@ -574,6 +603,7 @@ a{
     font-family: 'Mon Sem';
     font-size: 1.4rem;
     color: #2E134E;
+    padding-bottom: 20px;
 }
 .form-rassilka form input{
     width: 100%;
@@ -595,6 +625,13 @@ a{
     background: linear-gradient(180deg, #2E134E 0%, #CF3171 100%);
     border-radius: 69px;
     padding: 20px 80px;
+    transition: all ease 0.4s;
+}
+.rassilka button:hover{
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.4s;
 }
 
 .form-rassilka{
@@ -615,7 +652,7 @@ a{
     background: #525252;
     width: 100%;
 }
-.footer p{
+.footer a{
     font-family: 'Mon Reg';
     color: #F8F8F8;
     font-size: 1rem;
@@ -637,3 +674,275 @@ a{
     align-items: center;
     justify-content: space-between;
 }
+
+
+
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 480px;
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .nav{
+        padding-top: 15px;
+        width: 80%;
+    }
+    .nav a{
+        font-size: 0.9rem;
+    }
+    .st, .dat{
+        padding-right: 80px;
+    }
+    .text-title{
+        top: 40px;
+        left: 10px;
+    }
+    .head h1{
+        font-size: 3rem;
+    }
+    .head p{
+        font-size: 1.2rem;
+    }
+    .block-desc{
+        /* width: 60%; */
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .bl p{
+        font-size: 1.1rem;
+    }
+    .bl{
+        margin-bottom: 30px;
+    }
+    .button-1 a{
+        padding: 26px 50px;
+        font-size: 1rem;
+    }
+    .choice{
+        padding-top: 50px;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .text-choice{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-choice h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        /* width: 90%; */
+    }
+    .text-choice p{
+        font-size: 0.7rem;
+        /* padding-bottom: 30px; */
+        /* width: 90%; */
+    }
+    .choise-img img {
+        width: 156px;
+    }
+    .reviews h1{
+        font-size: 1.5rem;
+        padding-bottom: 0px;
+    }
+    .grid-reviews{
+        display: block;
+        text-align: center;
+    }
+    .reviews{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rew{
+        margin-bottom: 30px;
+        width: 70%;
+    }
+    .contact img{
+        width: 35px;
+        padding-right: 0px;
+    }
+    .contact h3{
+        font-size: 0.7rem;
+    }
+    .dial p{
+        text-align: left;
+        font-size: 0.5rem;
+        padding-left: 34px;
+    }
+    #p-1{
+        left: 77px;
+        top: 31px;
+    }
+    #p-2{
+        left: 77px;
+        top: 206px;
+    }
+    #p-3{
+        left: 77px;
+        top: 342px;
+    }
+    #p-4{
+        left: 77px;
+        bottom: 63px;
+    }
+    .section-reviews {
+        padding-bottom: 50px;
+    }
+    .title-booking h1{
+        font-size: 1.5rem;
+    }
+    .title-booking p{
+        font-size: 0.7rem;
+        width: 90%;
+    }
+    .title-booking{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .desc img{
+        width: 40px;
+    }
+    .buk{
+        width: 222px;
+        height: 66px;
+    }
+    .buk .desc h3{
+        font-size: 0.6rem;
+    }
+    .grid-booking {
+        grid-template-columns: repeat(2, 194px);
+        grid-template-rows: repeat(6, 78px);
+        gap: 13px;
+
+        padding: 0px;
+    }
+    #s-1, #s-2, #s-3, #s-4, #s-5{
+        padding: 0px;
+        width: 60px;
+    }
+    #s-1, #s-3, #s-5{
+        margin-left: 30px;
+        margin-top: 34px;
+    }
+    #s-2, #s-4{
+        margin-left: 120px;
+        margin-top: 30px;
+    }
+    .sections-booking {
+        padding-bottom: 80px;
+    }
+    .header-form img{
+        padding: 0px;
+        width: 40px;
+    }
+    .header-form h1{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .header-form{
+        justify-content: space-between;
+        width: 70%;
+    }
+    .form-date form label{
+        font-size: 0.8rem;
+    }
+    .form-date form select, .form-date form input{
+        font-size: 0.6rem;
+    
+    }
+    .form-date button{
+        padding: 10px 60px;
+    }
+    .stocks .title{
+        font-size: 2rem;
+    }
+    /* .stocks-card .card{
+        width: 100%;
+        height: 730px;
+    } */
+    .desc-card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-desc{
+        padding: 0px;
+    }
+    .backg-1, .backg-2, .backg-3{
+        width: 258px;
+        height: 258px;
+        background-size: cover;
+    }
+    .stocks .card{
+        width: 90%;
+        border-radius: 43px;
+    }
+    .card h1{
+        font-size: 1.2rem;
+    }
+    .card p{
+        font-size: 0.7rem;
+        margin-bottom: 30px;
+    }
+    .text-desc-2{
+        padding: 0px;
+    }
+    .card a{
+        font-size: 0.7rem;
+        padding: 13px 40px;
+        display: flex;
+        align-items: center;
+    }
+    .text-desc-2{
+        width: 85%
+    }
+    .card-p {
+        width: 25rem;
+    }
+    .stocks-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rassilka h1{
+        font-size: 1.4rem;
+    }
+    .form-rassilka form label{
+        font-size: 0.9rem;
+    }
+    .form-rassilka form input{
+        font-size: 0.7rem;
+    }
+    .form-rassilka {
+        width: 70%;
+    }
+    .rassilka button{
+        font-size: 0.9rem;
+        padding: 15px 40px;
+    }
+    .footer{
+        margin-left: 20px;
+    margin-right: 20px;
+    }
+    .footer a{
+        font-size: 0.6rem;
+    }
+    .foot-right{
+        width: 150px;
+    }
+    /* .sections-about-us-2{
+        width: 100%;
+    } */
+    .background img {
+        width: 100%;
+    }
+    .section-about-us {
+        padding-bottom: 450px;
+    }
+}   

@@ -1,0 +1,267 @@
+@import url(../styles/fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.section-navigation, .section-booking{
+    width: 100%;
+    background-color: #F8F8F8;
+}
+.nav a{
+    font-family: 'Mon Reg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 24px;
+    color: #2E134E;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+
+    transition: all ease 0.3s;
+}
+.st, .dat{
+    width: 4rem;
+}
+.bron{
+    width: 19rem;
+}
+.nav a:hover{
+    font-family: 'Mon Med';
+    font-weight: 500;
+    border-bottom: 1px solid #FA0568;
+}
+.nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.line-1{
+    width: 100%;
+    border: 1px solid #68329C;
+}
+.navigation{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.booking h1{
+    font-family: 'Mon Bold';
+    color: #663397;
+    font-size: 2.5rem;
+
+    padding-top: 35px;
+}
+.form-booking{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-booking{
+    padding-top: 40px;
+}
+.flex-booking p{
+    font-family: 'Mon Sem';
+    font-size: 2rem;
+    color: #2E134E;
+}
+.flex-booking{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+form label{
+    font-family: 'Mon Sem';
+    font-size: 1.4rem;
+    color: #2E134E;
+    padding-bottom: 15px;
+}
+.price h3{
+    font-family: 'Mon Sem';
+    font-size: 1.3rem;
+    color: #2E134E;
+}
+.btn-1 button, .btn-2 button{
+    font-family: 'Mon Bold';
+    font-size: 1rem;
+    color: #F8F8F8;
+    cursor: pointer;
+
+}
+.btn-1 button{
+    background: linear-gradient(180deg, #2E134E 0%, #972A56 100%);
+    border-radius: 69px;
+    padding: 25px 50px;
+
+    transition: all ease 0.4s;
+}
+.btn-1 button:hover{
+    background: linear-gradient(180deg, #281044 0%, #5c1935 100%);
+    box-shadow: 17px 16px 29px -7px rgba(0, 0, 0, 0.192);
+    transition: all ease 0.4s;
+}
+.btn-2 button{
+    background: linear-gradient(180deg, #F94D92 0%, #8B43E1 100%);
+    border-radius: 69px;
+    padding: 25px 70px;
+    transition: all ease 0.4s;
+}
+.btn-2 button:hover{
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    box-shadow: 17px 16px 29px -7px rgba(0, 0, 0, 0.192);
+    transition: all ease 0.4s;
+}
+form input{
+    width: 580px;
+    padding: 20px 0px 20px 25px; 
+    border: 1px solid #FA0568;
+    border-radius: 20px;
+    background: none; 
+
+    font-family: 'Mon Li';
+    font-size: 0.9rem;
+    color: #90879B;
+
+    appearance: none;
+    margin-bottom: 20px;
+}
+form select{
+    width: 580px;
+    padding: 20px 0px 20px 25px; 
+    border: 1px solid #FA0568;
+    border-radius: 20px;
+    background: none; 
+
+    font-family: 'Mon Li';
+    font-size: 0.9rem;
+    color: #90879B;
+
+    margin-bottom: 20px;
+
+    appearance: none;
+    background: url(../imgs/arrow-left-334-svgrepo-com\ \(1\).svg) no-repeat right;
+    background-position-x: calc(100% - 15px);
+    background-size: 14px;
+}
+
+form input[type=date]::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+form input[type=date]{
+    background: url(../imgs/calendar-svgrepo-com.svg) no-repeat right;
+    background-position-x: calc(100% - 15px);
+    background-size: 14px;
+}
+form textarea{
+    width: 96%;
+    height: 240px;
+    padding: 20px 0px 20px 25px; 
+    border: 1px solid #FA0568;
+    border-radius: 20px;
+    background: none; 
+
+    font-family: 'Mon Li';
+    font-size: 0.9rem;
+    color: #90879B;
+
+    resize: none;
+}
+.booking{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .reg-adr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
+.stolb{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.reg form, .date form, .price form, .adr form, .col form, .dop form{
+    display: flex;
+    flex-direction: column;
+}
+.price h1{
+    font-family: 'Mon Sem';
+    font-size: 4rem;
+    color: #2E134E;
+    padding-top: 15px;
+}
+.reg-dat-pr{
+    padding-right: 150px;
+}
+.comm form{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-left: 60px;
+}
+.em-pr{
+    padding-top: 40px;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.em form{
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.section-booking{
+    padding-bottom: 80px;
+}
+
+.section-footer{
+    background: #525252;
+    width: 100%;
+}
+.footer a{
+    font-family: 'Mon Reg';
+    color: #F8F8F8;
+    font-size: 1rem;
+}
+.foot-1{
+    display: flex;
+    flex-direction: column;
+}
+.foot-right{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form select option{
+    color: black;
+    font-size: 1rem;
+}
