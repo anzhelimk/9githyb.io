@@ -265,3 +265,85 @@ form select option{
     color: black;
     font-size: 1rem;
 }
+
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 100%;
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .nav{
+        padding-top: 15px;
+        width: 80%;
+    }
+    .nav a{
+        font-size: 0.9rem;
+    }
+    .st, .dat{
+        padding-right: 80px;
+    }
+    .booking h1{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    /* .form-booking{
+        flex-flow: wrap;
+    } */
+    .flex-booking p{
+        font-size: 1.4rem;
+        padding-top: 30px;
+    }
+    form select, form input{
+        width: 360px;
+        font-size: 0.7rem;
+    }
+   
+    form textarea{
+        width: 86%;
+        font-size: 0.7rem;
+    }
+    form label{
+        font-size: 1rem;
+    }
+    .flex-booking{
+        align-items: center;
+    }
+    .stolb{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .reg-dat-pr{
+        padding: 0;
+    }
+    .em-pr{
+        width: 100%;
+        flex-direction: column;
+    }
+    .em form{
+        padding: 0;
+    }
+    .btn-1 button{
+        font-size: 0.7rem;
+        padding: 14px 45px;
+    }
+    .btn-2 button{
+        font-size: 0.9rem;
+        padding: 14px 45px;
+    }
+    .comm form{
+        padding-top: 30px;
+    }
+    .footer{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .footer a{
+        font-size: 0.6rem;
+    }
+    .foot-right{
+        width: 150px;
+    }
+
+}

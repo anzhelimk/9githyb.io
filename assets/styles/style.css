@@ -680,7 +680,7 @@ a{
 
 @media screen and (max-width: 480px){
     .container{
-        width: 480px;
+        width: 100%;
     }
     .navigation{
         flex-direction: column;
@@ -703,17 +703,23 @@ a{
         font-size: 3rem;
     }
     .head p{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .block-desc{
         /* width: 60%; */
         flex-direction: column;
         padding-bottom: 40px;
+        align-items: center;
+    }
+    .bl span{
+        font-size: 0.9rem;
     }
     .bl p{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     .bl{
+        width: 271px;
+        height: 91px;
         margin-bottom: 30px;
     }
     .button-1 a{
@@ -743,6 +749,7 @@ a{
     }
     .choise-img img {
         width: 156px;
+        height: 184px;
     }
     .reviews h1{
         font-size: 1.5rem;
@@ -783,6 +790,7 @@ a{
         top: 206px;
     }
     #p-3{
+        width: 100%;
         left: 77px;
         top: 342px;
     }
@@ -928,7 +936,7 @@ a{
     }
     .footer{
         margin-left: 20px;
-    margin-right: 20px;
+        margin-right: 20px;
     }
     .footer a{
         font-size: 0.6rem;
@@ -943,6 +951,12 @@ a{
         width: 100%;
     }
     .section-about-us {
-        padding-bottom: 450px;
+        padding-bottom: 360px;
+    }
+    .section-stocks{
+        padding-bottom: 0;
+    }
+    .bron{
+        width: 14rem;
     }
 }   

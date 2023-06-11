@@ -198,3 +198,98 @@ a{
     align-items: center;
     justify-content: space-between;
 }
+
+
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 100%;
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .nav{
+        padding-top: 15px;
+        width: 80%;
+    }
+    .nav a{
+        font-size: 0.9rem;
+    }
+    .st, .dat{
+        padding-right: 80px;
+    }
+    .various-zone h1{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .plan{
+        width: 440px;
+        height: 343px;
+    }
+    .plan img{
+        width: 40px;
+    }
+    .get-1 {
+        left: 124px;
+        bottom: 261px;
+    }
+    .get-2 {
+        bottom: 210px;
+        left: 181px;
+    }
+    .get-3 {
+        left: 91px;
+        top: 41px;
+    }
+    .get-4 {
+        bottom: 148px;
+        right: 87px;
+    }
+    .get-5 {
+        top: 127px;
+        left: 214px;
+    }
+    .get-6 {
+        bottom: 122px;
+        left: 106px;
+    }
+    .get-price{
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 40px;
+        padding-top: 25px;
+    }
+    .price{
+        padding-right: 130px;
+    }
+    .price-1{
+        font-size: 1.3rem;
+    }
+    .get{
+        width: 84px;
+        height: 75px;
+    }
+    .get img{
+        width: 50px;
+    }
+    .get-price h3{
+        font-size: 1rem;
+    }
+    .card-price{
+        margin-bottom: 20px;
+    }
+    .various-zone a{
+        font-size: 0.8rem;
+        padding: 18px 53px
+    }
+    .footer{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .footer a{
+        font-size: 0.6rem;
+    }
+    .foot-right{
+        width: 150px;
+    }
+}
